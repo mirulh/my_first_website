@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+
+<html> 
+    <head>
+        <meta charset="utf-8">              <!--Set the character format for HTML-->
+        <title>My First Website</title>
+        <link rel="stylesheet" href="css/style.css">  <!--Link css file for html, also applicable for pagetwo if required the same stylesheet-->
+    </head>
+
+    <body>                                  <!--Adding style here eg style="background-color: red; color:black; font-size: 21px;"-->
+        <p>My First Website!</p>            <!--This is for paragraph-->
+
+        <p>This is really cool, I'm building a web page!</p>
+
+        <h1>Heading 1</h1>                  <!--Heading 1-6, biggest to smallest-->
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <h7>There is no h7, h8, h9</h7>
+        <p1>There is no p1, p2 tag only p tag (for paragraph) </p1>
+
+        <h1>1) Bold &lt;strong&gt; and Italic &lt;em&gt; (emphasis) Tags</h1>
+        
+        <p style="color:white"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sunt cupiditate aut odio debitis earum, 
+            facilis aspernatur voluptatibus sapiente obcaecati neque at dolorem odit, 
+            itaque rem consequuntur, eos cum quas placeat.</strong>                  <!--To bold text use strong-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Cumque, impedit, inventore consequatur aliquam, 
+            explicabo aliquid vitae recusandae quos quod asperiores 
+            perferendis temporibus eos cupiditate amet! <strong>Aliquid, 
+            sequi veniam! Adipisci, cupiditate!</strong></p>
+
+
+        <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sunt cupiditate aut odio debitis earum, 
+            facilis aspernatur voluptatibus sapiente obcaecati neque at dolorem odit, 
+            itaque rem consequuntur, eos cum quas placeat.</em>                          <!--To italic text use em, emphasis-->
+            <b>Lorem ipsum</b> dolor sit <i>consectetur adipisicing elit. </i>      <!--Using b for bold and i for italic as alternative-->
+            Cumque, impedit, inventore consequatur aliquam, 
+            explicabo aliquid vitae recusandae quos quod asperiores 
+            perferendis temporibus eos cupiditate amet!<strong><em> Aliquid, 
+            sequi veniam! Adipisci, cupiditate!</em></strong></p>
+
+        <h2>Difference Between &lt;strong&gt; and Bold, &lt;b&gt; Tags</h2>
+
+
+        <p>Both the (&lt;strong&gt;) and (&lt;b&gt;) tags are used for emphasizing text in HTML, 
+            but they have different meanings and implications.
+
+            The (&lt;strong&gt;) tag is used to indicate that the text is particularly important, 
+            or to give it more weight or significance. By default, browsers will usually display 
+            text wrapped in (&lt;strong&gt;) tags in bold font, but the emphasis is more important 
+            than the style. Here's an example:</p>
+
+        <p><strong>This sentence is particularly important.</strong></p>
+
+        <p>The (&lt;b&gt;) tag, on the other hand, is used to make text visually bold, but it does not carry
+            any semantic meaning. It simply indicates that the text is stylistically different from 
+            surrounding text, and may be used for aesthetic purposes rather than for emphasis. 
+            Here's an example:</p>
+
+        <p>This sentence contains some <b>bold text</b>.</p>
+
+        <p>In most cases, it's preferable to use the (&lt;strong&gt;) tag over the (&lt;b&gt;)tag when you want to 
+            emphasize text, as it conveys more meaning and can help with accessibility. However, if you're 
+            simply trying to make some text visually stand out, using (&lt;b&gt;) may be more appropriate.</p>
+
+            <p>Same goes for Italic, (&lt;i&gt;), instead use (&lt;em&gt;)</p>
+            <p>tldr; DO NOT USE (&lt;i&gt;) and (&lt;b&gt;)</p>
+
+
+        <!--LINKS-->
+        <h2>2) Using Link Tag, &lt;a href="LINK"&gt; (Anchor(a), Hypertext REFerence(href))</h2>
+
+        <p><a href="https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5">This is a link.</a>
+            The 'http' prefix is important to include when inserting link to the html codebase otherwise the link wont be working properly</p>
+
+            <h3>Using &lt;a href="LINK"&gt; to Link Local Files</h3>
+
+            <p>This is the link to <a href="page_two.html">page two</a> of the website. Local directory does not need 'http' prefix in the link</p>
+
+
+        <!--IMAGES-->            
+        <h2>3) Using Image Tag, &lt;img src="LINK"&gt; (Image(img), Source(src))</h2>
+        
+        <p>To complete an image, implement alt (alternative text), a description for the image</p>
+
+            <p>This is an example of an image on the web (include 'http')</p>
+            <img src="https://www.theodinproject.com/assets/icons/odin-icon-b5b31c073f7417a257003166c98cc23743654715305910c068b93a3bf4d3065d.svg" alt="normal odin">
+
+            <p>This is an example of an image taken from root folder (exclude 'http')</p>
+            <img src="img/odin-icon-2.png" alt="cooler odin">
+
+        
+            
+        
+
+    </body>
+</html>
