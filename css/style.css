@@ -1,0 +1,27 @@
+body {
+    background-color: #000;
+    color: white;
+    }
+
+    h1 {
+        color:coral;
+        font-size: 30px;
+    }
+
+    p {
+        color: #FFCC00;
+    }
+
+
+    div {
+        background: #17202A;
+        width: 500px;           /*the div would grow to fit the content inside 
+                                    of it (without needing to state the height)*/
+        /* height:500px; */   
+    }
+
+    span {
+        color: #FDFEFE;
+        font-size: 20px;        /*change font size */
+        font-weight: bold;      /*make text bold   */
+    }
