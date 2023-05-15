@@ -1,0 +1,122 @@
+body {
+    background-color: turquoise;
+    font-size: 21px;
+    background-image: url(../img/background_body2.png); /*sets background image on html main body*/
+
+}
+
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+
+}
+
+p {
+    color: #000000;
+}
+
+/*the css box model*/
+
+/*Margin:
+Border:
+Padding:
+*/
+
+.box {
+    background: pink;
+    width: 500px;
+
+    /*margin: 500px;      /*putting 500px on all sides*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    border-left-width: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+    
+    border-top-width: 10px;
+    border-top-color: blue;
+    border-top-style: solid;
+
+    border-right-width: 15px;
+    border-right-color: green;
+    border-right-style: solid;
+
+    border-bottom-width: 20px;
+    border-bottom-color: yellow;
+    border-bottom-style: solid;
+    
+    
+}
+
+.box2 {
+
+    background-color: yellow;
+    width: 550px;
+
+    margin: 50px;
+    border: 5px solid green;
+}
+
+.box3 {
+
+    background: orange;
+    width: 550px;
+
+    border: 5px solid black;
+    margin: 50px;
+}
+
+.box4 {
+
+    background: orange;
+    width: 550px;
+
+    border: 5px solid black;
+    padding: 50px;
+}
+
+.box5 {
+
+    background: orange;
+    width: 550px;
+
+    border: 5px solid black;
+    margin: 50px;
+    padding: 50px;
+}
+
+.box6 {
+    background-image: url(../img/repeat_pattern.png);
+    padding: 100px;
+    margin: 100px;
+    color: white;
+    background-size: contain;
+
+    /*background-repeat: repeat-x repeat-y;*/
+}
+
+.box7 {
+    background-image: url(../img/repeated_image.png);
+    background-size: 60%;
+    padding: 100px;
+    margin: 100px;
+    color: white;
+
+    background-repeat: repeat-x repeat-y;
+}
+
+.box8 {
+    background-image: url(../img/repeated_image.png);
+    background-position: center;
+    padding: 200px 100px;
+    margin: 100px;
+    color: white;
+    background-size: 50%;
+}
+
+li{
+    color: green;
+}

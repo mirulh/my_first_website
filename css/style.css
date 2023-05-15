@@ -12,9 +12,22 @@ body {
         color: #FFCC00;
     }
 
+    .intro{
+        font-size: 20px;
+        color: rgb(230, 230, 124)  /*able to override the p color*/
+    }
+
+
+    .highlight{
+        background: rgb(89, 89, 197)
+    }
+
+    .accent-color {
+        color: red;
+    }
 
     div {
-        background: #17202A;
+        background: #253f23;
         width: 500px;           /*the div would grow to fit the content inside 
                                     of it (without needing to state the height)*/
         /* height:500px; */   
@@ -23,5 +36,18 @@ body {
     span {
         color: #FDFEFE;
         font-size: 20px;        /*change font size */
-        font-weight: bold;      /*make text bold   */
+        background: rgb(48, 48, 145);
+        /*font-weight: bold;      /*make text bold   */
     }
+
+    #top-section {              /*the "." is to indicate a class*/
+        background: rgb(21, 100, 92)
+    }
+
+    .bottom-section {
+        background: rgb(91, 91, 146)
+    }
+
+    /*class vs id: class can be reuse over and over again while id only limited to one per page*/
+    /*class is started with "." | id is started with "#"*/
+    /*it is recommended to stick with class over id*/
