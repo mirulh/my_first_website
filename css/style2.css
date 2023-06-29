@@ -1,0 +1,58 @@
+body {
+    font-size: 21px;
+    background-image: url(../img/background_body2.png); /*sets background image on html main body*/
+
+	font-family:    Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif, 'Times New Roman'; 
+
+    /*having more than one font type is useful when a particular OS does not have the font in their system. As example "Futura" is not available in Linux but available in MacOS so the default font was change to the next thing until it reaches sans-serif which is the most common font in every OS. Syntax taken from here, to know more in specific >>> https://www.cssfontstack.com/ */
+
+    /*font with more than one word is put in quotation mark single or doulble does not matter, eg "Times New Roman" */
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Rockwell,'Courier Bold',Courier,Georgia,Times,'Times New Roman',serif; 
+
+    margin-bottom: 0px; /*to remove margin bottom, a margin is implemented by default*/
+
+}
+
+h2 {
+    margin-top: 0px; /*to remove margin top, a margin is implemented by default*/
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 20px; /*this is to modify the space between paragraph*/
+
+    line-height: 40px; /*sets the height of a line box, make it less cramp for big paragrapgh text*/
+
+    /*alternative to line height
+    line-height: 1;  or (..1.25, 1.4, 1.5) 1 - is equal to default line-height */
+
+    font-size: 30px;
+    font-style: italic; /* or oblique*/
+    font-weight: lighter; /*  bold, bolder, light, lighter */
+
+    text-align: center; /*center, justify, right, left. justify text is not recommended)*/
+
+}
+
+.bolder {
+    font-weight: bolder !important; /*only one step bolder than lighter font-weight*/
+
+    text-decoration: underline;
+    text-transform: uppercase; /*uppercase all words within the span class. also lowercase*/
+
+
+}
+
+.bold {
+    font-weight: bold;
+    
+    /* font-weight: 1000;   to sets the bold with intensity number */ 
+
+    text-decoration: overline;
+    text-transform: capitalize; /*capitalize all words within the span class*/
+
+}

@@ -1,0 +1,28 @@
+body {
+    font-size: 21px;
+    background-image: url(../img/background_body2.png); 
+
+	font-family:    Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif, 'Times New Roman'; 
+}
+
+h2 {
+    margin-top: 0px; 
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 20px; 
+
+    line-height: 1.4; 
+
+    font-size: 25px;
+    font-style: italic; 
+    font-weight: lighter;
+
+    text-align: left; 
+
+    color: red;
+
+}
+
+
