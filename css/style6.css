@@ -1,0 +1,209 @@
+body {
+    background-image: url(../img/background_body2.png); 
+    font-size: 21px;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #3747b3;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px; 
+}
+
+
+p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    text-align: justify;
+
+
+    /*VERY IMPORTANT!! It clears the floating item left and right side (try remove it to see the difference)*/
+    clear: both;
+
+}
+
+.red-box {
+    height: 500px;
+    width: 500px;
+    background: rgba(255,0,0,.5);
+
+    float: left;
+}
+
+.blue-box {
+    height: 400px;
+    width: 700px;
+    background: blue;
+}
+
+img {
+
+    /*resize the image*/
+    height: 50%;
+    width: 50%;
+
+    /*let the text come up next to the picture on the left side*/
+    /*float center does not exist*/
+    /*text doesnt go underneath floating item*/
+    float: left;
+
+    /*set margin so the text will not touch the picture*/
+    margin-right: 20px;
+}
+
+
+.green-box {
+    width: 500px;
+    background: seagreen;
+    float: left;
+}
+
+.orange-box {
+    width: 500px;
+    background: orange;
+    float: right;
+}
+
+/*------------------------------------------------------Separator--------------------------------------------*/
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box12 {
+    background: pink;
+}
+
+.box22 {
+    background: red;
+}
+
+.box32 {
+    background: firebrick;
+}
+
+.box42 {
+    background: orange;
+}
+
+.box52 {
+    background: yellow;
+}
+
+.box62 {
+    background: lime;
+}
+
+.box72 {
+    background: green;
+}
+
+.box82 {
+    background: blue;
+}
+
+.box92 {
+    background: purple;
+}
+
+
+/*all float to left*/
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.boxa {
+    background: pink;
+}
+
+.boxb {
+    background: red;
+}
+
+.boxc {
+    background: firebrick;
+}
+
+.boxd {
+    background: orange;
+}
+
+.boxe {
+    background: yellow;
+    clear: both;
+
+}
+
+.boxf {
+    background: lime;
+}
+
+.boxg {
+    background: green;
+}
+
+.boxh {
+    background: blue;
+}
+
+.boxi {
+    background: purple;
+}
+
+/*all float to right*/
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.boxj {
+    background: pink;
+}
+
+.boxk {
+    background: red;
+}
+
+.boxl {
+    background: firebrick;
+}
+
+.boxm {
+    background: orange;
+}
+
+.boxn {
+    background: yellow;
+    clear: both;
+
+}
+
+.boxo {
+    background: lime;
+}
+
+.boxp {
+    background: green;
+}
+
+.boxq {
+    background: blue;
+}
+
+.boxr {
+    background: purple;
+}
+
+

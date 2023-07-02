@@ -1,0 +1,71 @@
+body {
+    background-image: url(../img/background_body2.png); 
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #3747b3;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px; 
+}
+
+
+ol {
+    list-style-type: decimal;
+    background: lightblue;
+    padding: 50px;
+}
+
+ol li {
+    background: rgb(231, 231, 132);
+    margin-bottom: 10px;
+}
+
+
+/*this property uses class without div*/
+
+.important-list1 {
+    list-style-image: url(/img/icons8-star-24.png);
+    color: white;
+    font-style: italic;
+}
+
+
+ul {
+    list-style-type: square;  /*disc is the default, to remove any style use none*/
+    padding: 50px;
+    background: pink;
+
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+/*it is separated and not one big block */
+
+ul li {
+    background: red;
+    margin-bottom: 15px;
+}
+
+
+/*this property uses class with div*/
+
+.important-list2 ul li{
+    list-style-type: lower-roman;
+    color: white;
+    font-style: italic;
+    list-style-position: outside;
+}
+
+
+
+
+
+
+

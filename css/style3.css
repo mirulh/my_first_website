@@ -3,6 +3,11 @@ body {
     background-image: url(../img/background_body2.png); 
 
 	font-family:    Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif, 'Times New Roman'; 
+    color: green;
+}
+
+h1 {
+    color: #3747b3;
 }
 
 h2 {
@@ -16,13 +21,61 @@ p {
     line-height: 1.4; 
 
     font-size: 25px;
-    font-style: italic; 
-    font-weight: lighter;
+
 
     text-align: left; 
 
-    color: red;
+    color:navy; 
 
+}
+
+/*general for link
+
+a {
+    color: black;
+}
+*/
+
+/*PSEUDOCLASSES*/
+
+/*it has to be in this order because css will be reading it in this order*/
+
+/*unvisited link*/
+a:link {
+    color: red;
+}
+
+/*visited link*/
+a:visited {
+    color:green;
+}
+
+/*mouse over link*/ 
+/*Focus is optional and is used with TAB to change color (for accessibliity)*/
+a:hover , a:focus{
+    color: hotpink;
+}
+
+/*selected link*/
+a:active {
+    color: blue;
+}
+
+/*[link]->[visited]->[hover]->[active]*/
+/*END*/
+
+
+p:hover {
+    color:darkgoldenrod
+}
+
+
+h1:hover {
+    color:black;
+}
+
+h2:hover {
+    color: blueviolet;
 }
 
 
