@@ -1,0 +1,44 @@
+
+/* how to select google font - use google font link in href html and add one in css, from https://fonts.google.com/?category=Sans+Serif */
+
+body {
+    background-color: #CDE7B0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+    
+    /* remove all around margin */
+    margin: 0;
+}
+
+header {
+    background-color: #59594A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    clear: both;
+    background-color: #7286A0;
+    padding: 50px 0;
+    text-align: center;
+}

@@ -1,1 +1,9 @@
 use ctrl + B to hide panel (faster)
+
+how to view your website on mobile browsers
+
+get wifi ip address + localhost address of your website e.g 5500
+
+
+tutorial >>
+https://www.youtube.com/watch?v=uRYHX4EwYYA
