@@ -51,3 +51,9 @@ body {
     /*class vs id: class can be reuse over and over again while id only limited to one per page*/
     /*class is started with "." | id is started with "#"*/
     /*it is recommended to stick with class over id*/
+
+
+    /* This is a universal selector to keep everything element consistent without specifying it */
+    * {
+        line-height: 1.9;
+    }
